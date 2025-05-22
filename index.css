@@ -1,0 +1,114 @@
+/* Ocupa toda la pantalla */
+.pantalla {
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+    background-color: #67fada;
+}
+
+/* Header al 100% */
+.div-header {
+  width: 100%;
+  background-color: #0d253f;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+}
+
+.div-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Contenedor centrado para el contenido */
+.div-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+
+/* Sección de tarjetas */
+.card-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 30px;
+  flex-wrap: nowrap;
+}
+
+.card {
+  background: rgb(65, 113, 245);
+  flex: 1 1 0;
+  min-width: 220px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0d253f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+.card1 {
+  background: rgb(245, 225, 113);
+  flex: 1 1 0;
+  min-width: 220px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0d253f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+.card2 {
+  background: rgb(245, 172, 113);
+  flex: 1 1 0;
+  min-width: 220px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #0d253f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+}
+
+/* Bloque de texto */
+.text-block {
+  background-color: #f8faff;
+  border-radius: 16px;
+  padding: 30px 35px;
+  color: #2f3e56;
+  font-size: 1.1rem;
+  background-color: #d3faf2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-section {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 24px;
+    height: auto;
+  }
+}
